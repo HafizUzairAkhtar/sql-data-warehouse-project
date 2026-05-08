@@ -14,7 +14,7 @@ The goal wasn't just to follow along — it was to understand *why* each step ma
 
 ## 🏛️ Architecture Overview
 
-This project follows the **Medallion Architecture** — a layered approach that keeps data organized, traceable, and progressively refined.
+This project follows the **Medallion Architecture** a layered approach that keeps data organized, traceable, and progressively refined.
 
 ![Data Architecture](docs/data_architecture.png)
 
@@ -48,7 +48,7 @@ The data originates from two source systems and flows through each layer:
 
 ### 2. Bronze Layer — Data Ingestion
 - Loaded 6 raw CSV files into SQL tables using `BULK INSERT`
-- No transformations applied — data stored exactly as received from source systems
+- No transformations applied data stored exactly as received from source systems
 - Tables: `crm_sales_details`, `crm_cust_info`, `crm_prd_info`, `erp_cust_az12`, `erp_loc_a101`, `erp_px_cat_g1v2`
 
 ### 3. Silver Layer — Data Cleaning & Transformation
@@ -134,7 +134,7 @@ The Gold layer is modeled as a **star schema** with one central fact table and t
 
 ## 📌 Naming Conventions
 
-All objects follow a consistent naming standard — see [`docs/naming_conventions.md`](docs/naming_conventions.md) for the full guide.
+All objects follow a consistent naming standard see [`docs/naming_conventions.md`](docs/naming_conventions.md) for the full guide.
 
 Quick summary:
 - Bronze/Silver tables: `<sourcesystem>_<entity>` (e.g., `crm_cust_info`)
