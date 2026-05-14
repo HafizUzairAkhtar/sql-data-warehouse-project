@@ -146,7 +146,7 @@ Quick summary:
 
 ## 💡 What I Learned
 
-Building this project taught me how data engineering works end to end. The Bronze layer gave me an appreciation for keeping raw data untouched — it's your safety net. The Silver layer is where most of the real work happens, because real-world data is messy. The Gold layer showed me why good modeling makes analysts' lives so much easier.
+Building this project taught me how data engineering works end to end. The Bronze layer gave me an appreciation for keeping raw data untouched it's your safety net. The Silver layer is where most of the real work happens, because real-world data is messy. The Gold layer showed me why good modeling makes analysts' lives so much easier.
 
 The biggest lesson: **documentation is not optional**. A well-documented warehouse is what separates a professional project from a code dump.
 
